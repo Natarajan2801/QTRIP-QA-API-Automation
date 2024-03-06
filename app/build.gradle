@@ -36,10 +36,6 @@ dependencies {
     testImplementation 'io.rest-assured:rest-assured:5.2.0'
     testImplementation 'io.rest-assured:json-schema-validator:4.3.3'
     implementation 'org.json:json:20171018'
-
-
-
-    
 }
 
 buildDir = '/tmp/external_build'
@@ -51,6 +47,7 @@ application {
 test {
     useTestNG() {
         useDefaultListeners = true // generates the test report
+        suites 'testng.xml'       
     }
      afterSuite { desc, result ->
             if (!desc.parent) {

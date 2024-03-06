@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API AUTOMATION QTRIP">
+  <test name="TesT 1">         
+      <classes>
+        <class name="qtriptest.APITests.testCase_API_01"/>
+        <class name="qtriptest.APITests.testCase_API_02"/>
+        <class name="qtriptest.APITests.testCase_API_03"/>
+        <class name="qtriptest.APITests.testCase_API_04"/>
+      </classes>
+  </test>   
+</suite>
