@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.UUID;
 public class testCase_API_02 {
 
-@Test  (groups = {"API Tests"})
+@Test  (groups = {"API_Tests"} ,priority = 2)
 public static void tc02(){
     RestAssured.baseURI="https://content-qtripdynamic-qa-backend.azurewebsites.net";
     RestAssured.basePath="/api/v1/cities";

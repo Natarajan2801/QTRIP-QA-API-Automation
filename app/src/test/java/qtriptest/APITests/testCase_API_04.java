@@ -13,9 +13,9 @@ import java.util.UUID;
 
 public class testCase_API_04 {
 
-    @Test (groups = {"API Tests"})
+    @Test (groups = {"API_Tests"} ,priority = 4)
     public static void tc04(){
-      
+
         RestAssured.baseURI="https://content-qtripdynamic-qa-backend.azurewebsites.net";
         RestAssured.basePath="/api/v1/register";
         String email="natraj"+UUID.randomUUID()+"@gmail.com";

@@ -4,10 +4,9 @@
   <test name="TesT 1">
   <groups>
     <run>
-      <include name = "API Tests"/>
+      <include name = "API_Tests"/>
     </run>
   </groups>
- </groups>
       <classes>
         <class name="qtriptest.APITests.testCase_API_01"/>
         <class name="qtriptest.APITests.testCase_API_02"/>

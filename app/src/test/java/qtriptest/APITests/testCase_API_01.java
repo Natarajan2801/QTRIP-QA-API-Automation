@@ -22,7 +22,7 @@ import static org.hamcrest.Matcher.*;
 public class testCase_API_01 {
   static String token;
   static String userID; 
-  @Test  (groups = {"API_Tests"})
+  @Test  (groups = {"API_Tests"},priority = 1)
   public static void tc01(){
 
         RestAssured.baseURI="https://content-qtripdynamic-qa-backend.azurewebsites.net";

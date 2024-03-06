@@ -2,38 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-06T21:00:03 IST" name="API AUTOMATION QTRIP" finished-at="2024-03-06T21:00:18 IST" duration-ms="14757">
+  <suite started-at="2024-03-06T21:26:50 IST" name="API AUTOMATION QTRIP" finished-at="2024-03-06T21:27:05 IST" duration-ms="14962">
     <groups>
-      <group name="API Tests">
-        <method signature="testCase_API_02.tc02()[pri:0, instance:qtriptest.APITests.testCase_API_02@5b799640]" name="tc02" class="qtriptest.APITests.testCase_API_02"/>
-        <method signature="testCase_API_03.tc03()[pri:0, instance:qtriptest.APITests.testCase_API_03@6cb107fd]" name="tc03" class="qtriptest.APITests.testCase_API_03"/>
-        <method signature="testCase_API_04.tc04()[pri:0, instance:qtriptest.APITests.testCase_API_04@710636b0]" name="tc04" class="qtriptest.APITests.testCase_API_04"/>
-      </group> <!-- API Tests -->
       <group name="API_Tests">
-        <method signature="testCase_API_01.tc01()[pri:0, instance:qtriptest.APITests.testCase_API_01@6f53b8a]" name="tc01" class="qtriptest.APITests.testCase_API_01"/>
+        <method signature="testCase_API_01.tc01()[pri:1, instance:qtriptest.APITests.testCase_API_01@4201c465]" name="tc01" class="qtriptest.APITests.testCase_API_01"/>
+        <method signature="testCase_API_02.tc02()[pri:2, instance:qtriptest.APITests.testCase_API_02@43f02ef2]" name="tc02" class="qtriptest.APITests.testCase_API_02"/>
+        <method signature="testCase_API_03.tc03()[pri:3, instance:qtriptest.APITests.testCase_API_03@239a307b]" name="tc03" class="qtriptest.APITests.testCase_API_03"/>
+        <method signature="testCase_API_04.tc04()[pri:4, instance:qtriptest.APITests.testCase_API_04@2a8448fa]" name="tc04" class="qtriptest.APITests.testCase_API_04"/>
       </group> <!-- API_Tests -->
     </groups>
-    <test started-at="2024-03-06T21:00:03 IST" name="TesT 1" finished-at="2024-03-06T21:00:18 IST" duration-ms="14757">
+    <test started-at="2024-03-06T21:26:50 IST" name="TesT 1" finished-at="2024-03-06T21:27:05 IST" duration-ms="14962">
       <class name="qtriptest.APITests.testCase_API_01">
-        <test-method signature="tc01()[pri:0, instance:qtriptest.APITests.testCase_API_01@6f53b8a]" started-at="2024-03-06T21:00:03 IST" name="tc01" finished-at="2024-03-06T21:00:10 IST" duration-ms="7138" status="PASS">
+        <test-method signature="tc01()[pri:1, instance:qtriptest.APITests.testCase_API_01@4201c465]" started-at="2024-03-06T21:26:50 IST" name="tc01" finished-at="2024-03-06T21:26:58 IST" duration-ms="7291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01 -->
       </class> <!-- qtriptest.APITests.testCase_API_01 -->
       <class name="qtriptest.APITests.testCase_API_02">
-        <test-method signature="tc02()[pri:0, instance:qtriptest.APITests.testCase_API_02@5b799640]" started-at="2024-03-06T21:00:10 IST" name="tc02" finished-at="2024-03-06T21:00:15 IST" duration-ms="4212" status="PASS">
+        <test-method signature="tc02()[pri:2, instance:qtriptest.APITests.testCase_API_02@43f02ef2]" started-at="2024-03-06T21:26:58 IST" name="tc02" finished-at="2024-03-06T21:27:02 IST" duration-ms="4032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02 -->
       </class> <!-- qtriptest.APITests.testCase_API_02 -->
       <class name="qtriptest.APITests.testCase_API_03">
-        <test-method signature="tc03()[pri:0, instance:qtriptest.APITests.testCase_API_03@6cb107fd]" started-at="2024-03-06T21:00:15 IST" name="tc03" finished-at="2024-03-06T21:00:16 IST" duration-ms="1061" status="PASS">
+        <test-method signature="tc03()[pri:3, instance:qtriptest.APITests.testCase_API_03@239a307b]" started-at="2024-03-06T21:27:02 IST" name="tc03" finished-at="2024-03-06T21:27:03 IST" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03 -->
       </class> <!-- qtriptest.APITests.testCase_API_03 -->
       <class name="qtriptest.APITests.testCase_API_04">
-        <test-method signature="tc04()[pri:0, instance:qtriptest.APITests.testCase_API_04@710636b0]" started-at="2024-03-06T21:00:16 IST" name="tc04" finished-at="2024-03-06T21:00:18 IST" duration-ms="2223" status="PASS">
+        <test-method signature="tc04()[pri:4, instance:qtriptest.APITests.testCase_API_04@2a8448fa]" started-at="2024-03-06T21:27:03 IST" name="tc04" finished-at="2024-03-06T21:27:05 IST" duration-ms="2348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc04 -->
